@@ -43,7 +43,7 @@ $(BUILD_DIR)/estacion.o: estacion.hpp nombres-ficheros.hpp uso.hpp
 $(BUILD_DIR)/nombres-ficheros.o: nombres-ficheros.hpp
 $(BUILD_DIR)/uso.o: uso.hpp
 $(BUILD_DIR)/usos-usuario.o: uso.hpp usos-usuario.hpp
-$(BUILD_DIR)/usuarios.o: nombres-ficheros.hpp usuarios.hpp
+$(BUILD_DIR)/usuarios.o: usuarios.hpp
 
 
 $(BIN_DIR):
