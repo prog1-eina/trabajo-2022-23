@@ -26,9 +26,6 @@ BIZI_OBJECTS =  $(addprefix $(BUILD_DIR)/, bizi-main.o estacion.o nombres-ficher
 ###############################################################################################
 ## Reglas del fichero «Makefile»
 
-
-all: bizi
-
 bizi: $(BIZI_OBJECTS) | $(BIN_DIR)
 	$(CXX) -g $^ -o $(BIN_DIR)/$@ 
 
