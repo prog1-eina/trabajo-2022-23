@@ -19,7 +19,7 @@ CXXFLAGS = -g -Wall -Wextra
 
 
 ## FICHEROS OBJETO (RESULTADOS INTERMEDIOS DE COMPILACIÓN):
-DATOS_PRUEBAS_OBJECTS =  $(SOURCE_DIR)/0-datos-pruebas.hpp
+DATOS_PRUEBAS_OBJECTS =  $(SOURCE_DIR)/0-datos-pruebas.cpp
 BIZI_OBJECTS =  $(addprefix $(BUILD_DIR)/, bizi-main.o estacion.o nombres-ficheros.o uso.o \
                                            usos-usuario.o usuarios.o)
 
