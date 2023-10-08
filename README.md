@@ -20,12 +20,6 @@ Para compilarlo, hay que ejecutar el comando
     make bizi
 ```
 
-o, en Windows,
-
-```shell
-    mingw32-make bizi
-```
-
 o ejecutar la tarea ``Compilar «bizi»`` de VSC.
 
 Para ejecutarlo, una vez compilado, hay que ejecutar el comando

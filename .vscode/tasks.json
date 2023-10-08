@@ -10,9 +10,6 @@
             "label": "Compilar «datos-pruebas»",
             "type": "shell",
             "command": "make",
-            "windows": {
-                "command": "mingw32-make.exe",
-            },
             "args": [
                 "datos-pruebas"
             ],
@@ -33,9 +30,6 @@
             "label": "Compilar «bizi»",
             "type": "shell",
             "command": "make",
-            "windows": {
-                "command": "mingw32-make.exe",
-            },
             "args": [
                 "bizi"
             ],
@@ -63,9 +57,6 @@
             "label": "Limpiar resultados de compilación",
             "type": "shell",
             "command": "make",
-            "windows": {
-                "command": "mingw32-make.exe",
-            },
             "args": [
                 "clean"
             ],
