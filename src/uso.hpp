@@ -29,7 +29,7 @@ struct UsoBizi {
  *       la bicicleta. Devuelve «true» si no se han terminado los datos del fichero en el
  *       intento de lectura descrito y y «false» en caso contrario.
  */
-bool leerUso(istream& f, UsoBizi& uso);
+bool leerUso(istream &f, UsoBizi &uso);
 
 
 /*
@@ -42,4 +42,4 @@ bool leerUso(istream& f, UsoBizi& uso);
  *       de usos contenidos en dicho fichero que tienen como origen y destino la misma 
  *      estación.  En ese caso, devuelve «true» y en el caso contrario, «false».
  */
-bool contarUsos(const string nombreFicheroUsos, unsigned& traslados, unsigned& usosCirculares);
+bool contarUsos(const string nombreFicheroUsos, unsigned &traslados, unsigned &usosCirculares);

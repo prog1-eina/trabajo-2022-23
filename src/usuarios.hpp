@@ -57,4 +57,4 @@ int indiceGenero(const string genero);
  *       caso de «rangoEdad».
  */
 bool buscarUsuario(const string nombreFicheroUsuarios, const unsigned idUsuario,
-                   string& genero, string& rangoEdad);
+                   string &genero, string &rangoEdad);

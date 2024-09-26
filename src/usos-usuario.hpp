@@ -41,7 +41,7 @@ unsigned numUsosTotales(const UsosUsuario usuario);
  *       leído sin problemas y «false» en caso contrario.
  */
 bool obtenerUsosPorUsuario(const string nombreFicheroUsos,
-                           UsosUsuario usuarios[], unsigned& numUsuarios);
+                           UsosUsuario usuarios[], unsigned &numUsuarios);
 
 /*
  * Pre:  numUsuarios > 0; numOrdenar > 0

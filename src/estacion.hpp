@@ -126,5 +126,5 @@ void calcularDestinosMasFrecuentes(const unsigned viajes[][NUM_ESTACIONES],
  *       El informe está ordenado por identificadores crecientes de estación de origen y tiene
  *       el formato establecido en el enunciado.
  */
-void escribirInformeDestinos(ostream& f, const unsigned viajes[][NUM_ESTACIONES], 
+void escribirInformeDestinos(ostream &f, const unsigned viajes[][NUM_ESTACIONES], 
                              const unsigned destinosMasFrecuentes[]);
