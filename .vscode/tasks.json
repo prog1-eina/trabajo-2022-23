@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "label": "Open Terminal",
+            "label": "Terminal (solo macOS, para dar permisos a VSC)",
             "type": "shell",
             "command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo hello\"\nend tell'",
             "problemMatcher": []
@@ -21,7 +21,8 @@
             "type": "shell",
             "command": "bin/datos-pruebas",
             "windows": {
-                "command": "chcp 65001 ; bin\\datos-pruebas.exe",
+                "command": "cmd",
+                "args": ["/c", "chcp 65001 && bin\\datos-pruebas.exe"]
             },
             "dependsOn": "Compilar «datos-pruebas»",
             "problemMatcher": ["$gcc"],
@@ -44,7 +45,8 @@
             "type": "shell",
             "command": "bin/bizi",
             "windows": {
-                "command": "chcp 65001 ; bin\\bizi",
+                "command": "cmd",
+                "args": ["/c", "chcp 65001 && bin\\bizi"]
             },
             "dependsOn": "Compilar «bizi»",
             "problemMatcher": ["$gcc"],

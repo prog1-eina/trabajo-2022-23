@@ -1,4 +1,4 @@
-/*********************************************************************************************\
+/******************************************************************************
  * Programación 1. Trabajo obligatorio
  * Autores: ¡¡¡PONED AQUÍ VUESTROS NOMBRES!!!
  * Ultima revisión: ¡¡¡!!!
@@ -7,7 +7,7 @@
  *          procedimiento denominado «construirNombreFicheroUsos» que facilita la construcción
  *          del nombre de un fichero de usos a partir de la opción sobre el fichero de usos que
  *          haya escrito el usuario. 
-\*********************************************************************************************/
+ *****************************************************************************/
 
 #pragma once
 

@@ -1,10 +1,10 @@
-﻿/*********************************************************************************************\
+﻿/******************************************************************************
  * Programación 1. Trabajo obligatorio
  * Autores: ¡¡¡PONED AQUÍ VUESTROS NOMBRES!!!
  * Ultima revisión: ¡¡¡!!!
  * Resumen: Fichero de interfaz «usos-usuario.hpp» de un módulo para trabajar con registros que
  *          permiten contabilizar el número de usos que cada usuario hace del sistema Bizi.
-\*********************************************************************************************/
+ *****************************************************************************/
 
 #pragma once 
 

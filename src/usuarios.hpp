@@ -1,10 +1,10 @@
-/*********************************************************************************************\
+/******************************************************************************
  * Programación 1. Trabajo obligatorio
  * Autores: ¡¡¡PONED AQUÍ VUESTROS NOMBRES!!!
  * Ultima revisión: ¡¡¡!!!
  * Resumen: Fichero de interfaz «usuarios.hpp» de un módulo para trabajar con el fichero de 
  *          usuarios del sistema Bizi Zaragoza.
-\*********************************************************************************************/
+ *****************************************************************************/
 
 #pragma once
 

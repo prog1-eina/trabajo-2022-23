@@ -1,11 +1,11 @@
-﻿/*********************************************************************************************\
+﻿/******************************************************************************
  * Programación 1. Trabajo obligatorio
  * Autores: ¡¡¡PONED AQUÍ VUESTROS NOMBRES!!!
  * Ultima revisión: ¡¡¡!!!
  * Resumen: Fichero de interfaz «estacion.hpp» de un módulo para trabajar con
  *          registros que representan estaciones del sistema Bizi Zaragoza.
  * Codificación de caracteres original de este fichero: UTF-8 con BOM
-\*********************************************************************************************/
+ *****************************************************************************/
 
 #pragma once
 
