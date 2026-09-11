@@ -15,7 +15,7 @@ VPATH = $(SOURCE_DIR)
 
 ## COMPILADOR Y OPCIONES DE COMPILACIÓN:
 CXX = g++
-CXXFLAGS = -Og -Wall -Wextra 
+CXXFLAGS = -g -Wall -Wextra 
 
 
 ## FICHEROS OBJETO (RESULTADOS INTERMEDIOS DE COMPILACIÓN):
@@ -27,10 +27,10 @@ BIZI_OBJECTS =  $(addprefix $(BUILD_DIR)/, bizi-main.o estacion.o nombres-ficher
 ## Reglas del fichero «Makefile»
 
 bizi: $(BIZI_OBJECTS) | $(BIN_DIR)
-	$(CXX) -Og $^ -o $(BIN_DIR)/$@ 
+	$(CXX) -g $^ -o $(BIN_DIR)/$@ 
 
 datos-pruebas: $(DATOS_PRUEBAS_OBJECTS) | $(BIN_DIR)
-	$(CXX) -Og $^ -o $(BIN_DIR)/$@ 
+	$(CXX) -g $^ -o $(BIN_DIR)/$@ 
 
 $(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
 	$(CXX) $(CXXFLAGS) -c $< -o $@  
